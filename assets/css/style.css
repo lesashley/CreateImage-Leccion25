@@ -2,7 +2,7 @@ body{
   font-family: 'Raleway', sans-serif;
   text-align: center;
   margin: 0 auto;
-  background-color: rgb(255, 200, 179);
+  background-color: white;
 }
 
 label{
@@ -14,24 +14,29 @@ input{
   -webkit-apperrance:none;
   border: 1px solid #ccc;
   padding: 7px;
-  margin-top: 10px;
 }
 
 .text-center{
+  position: fixed;
+  top: 0;
+  width: 100%;
   text-align: center;
+  background-color: rgb(157, 196, 200);
+  padding-bottom: 20px;
 }
 
 #contenedor{
-  margin-top: 30px;
+  margin-top: 140px;
 }
 
 .contenedor-imagen{
-  width: 425px;
-  height: 450px;
+  width: 400px;
+  height: 425px;
   display: inline-block;
   margin: 0 10px 20px 10px;
 }
 img{
   width: 400px;
   height: 425px;
+  border-radius: 30px;
 }
