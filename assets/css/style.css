@@ -1,0 +1,37 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(255, 200, 179);
+}
+
+label{
+  font-weight: bold;
+}
+
+input{
+  border-radius: 2px;
+  -webkit-apperrance:none;
+  border: 1px solid #ccc;
+  padding: 7px;
+  margin-top: 10px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+#contenedor{
+  margin-top: 30px;
+}
+
+.contenedor-imagen{
+  width: 425px;
+  height: 450px;
+  display: inline-block;
+  margin: 0 10px 20px 10px;
+}
+img{
+  width: 400px;
+  height: 425px;
+}
